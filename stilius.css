@@ -1,0 +1,117 @@
+body{
+color: white;
+font-size: 16px;
+}
+a {
+  color: inherit;
+  text-decoration: inherit;
+}
+
+
+#indexAlavijas{
+	width:60%;
+	margin: auto;
+	vertical-align: middle;
+}
+
+#logo{
+	right: 1vw;
+	top: 0;
+	position: absolute;
+	width: 30%;
+}
+
+#aloe{
+	height: 200px;
+	width: 244px;
+	z-index: -1;
+	position: absolute;
+    left: 50%;
+	bottom: 0;
+    transform: translate(-50%, 0);
+	-webkit-transition: width 2s, height 2s, left 2s; /* Safari */
+    transition: width 2s, height 2s, left 2s;
+}
+#telMeniu{
+	display: none;
+}
+
+#meniu{
+	width: 30vw;
+	height: 50vh;
+	border-radius: 3vh;
+	/*border: 7px solid #48652d;*/
+	background-color: #769c53;
+	top: 50%;
+	right: -26vw;
+	transform: translate(0, -50%);
+	position: fixed;
+	-webkit-transition: width 2s, height 2s, left 1s, right 1s; /* Safari */
+    transition: width 2s, height 2s, left 1s, right 1s;
+	
+	text-align: center;
+	
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+#meniu:hover{
+	right: -3vw;
+}
+.meniuVnt{
+	border-bottom: 1px solid white;
+	width: 50%;
+	margin: auto;
+	height: 8vh;
+	line-height: 8vh;
+	font-size: 20px;
+	display: block;
+}
+.meniuVnt:hover{
+	color: black;
+}
+.infoTel{
+	display: none;
+	}
+.info{
+	width: 60vw;
+	height: 65vh;
+	border-radius: 3vh;
+	/*border: 10px solid #769c53;*/
+	/*background-color: #769c53;*/
+	color: black;
+	margin-top: 10vh;
+	left: 40%;
+	top: -200%;
+	transform: translate(-50%, -50%);
+	position: absolute;
+	
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	
+	-webkit-transition: width 2s, height 2s, left 1s, right 1s, top 1.5s; /* Safari */
+    transition: width 2s, height 2s, left 1s, right 1s, top 1.5s;
+	
+	/*background: url('AloeVeraSonas.png') no-repeat;
+    background-size: 50% auto;*/
+}
+#kruva{
+	width: 40%;
+	height: 100%;
+	
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.tekstas{
+	width: 50%;
+	height: 95%;
+	padding-left: 5%;
+	padding-right: 5%;
+	padding-top: 5%;
+	border-top: 5px solid #769c53;
+	border-right: 8px solid #769c53;
+	border-radius: 3vh;
+	z-index:-1;
+}

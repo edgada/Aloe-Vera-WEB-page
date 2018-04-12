@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+<link rel='stylesheet' media='screen and (max-width: 800px)' href='min-stilius.css' />
+<link rel='stylesheet' media='screen and (min-width: 801px)' href='stilius.css' />
+<meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body onload="pradzia();">
+
+<div id="meniu">
+<div style="width: 100%; margin-right: 1vw;">
+		<div class="meniuVnt">
+			<a href="#" id="lapoViduje">Lapo viduje</a>
+		</div>
+		<div class="meniuVnt">
+			<a href="#" id="fakt">Aloe vera faktai</a>
+		</div>
+		<div class="meniuVnt">
+			<a href="#" id="sult">Alavijo sultys</a>
+		</div>
+		<div class="meniuVnt" style="margin-bottom: 5vh;">
+			<a href="#">Parduotuvė</a>
+		</div>
+	</div>
+</div>
+
+<div id="logo">
+	<a href="index.html"><img src="logo.png" width="100%"></a>
+</div>
+
+<div id="telMeniu">
+<br>
+	<input class="burger-check" id="burger-check" type="checkbox"><label for="burger-check" class="burger"></label>
+	<nav id="navigation1" class="navigation">
+	  <ul>
+		<li><a href="lapo-viduje.html">Lapo viduje</a></li>
+		<li><a href="aloe-vera-faktai.html">Aloe vera faktai</a></li>
+		<li><a href="alavijo-sultys.html">Alavijo sultys</a></li>
+		<li><a href="#">Parduotuvė</a></li>
+	  </ul>
+	</nav>
+</div>
+
+<div id="aloe">
+	<img src="alavijas-aloe-vera.jpg" width="100%">
+</div>
+
+<div id="viduje" class="info">
+	<div id="kruva">
+		<img src="AloeVera-kruva.png" width="100%">
+	</div>
+	<div class="tekstas">
+		<h2>Lapo viduje</h2>
+		Alavijų želėje yra mažiausiai 75 žinomos sudedamosios dalys; jų galbūt yra ir daugiau, ir ateityje jos bus atrastos. Šias sudedamąsias dalis galima suskirstyti į tokias grupes:
+		<ul>
+			<li>Vitaminai</li>
+			<li>Aminorūgštys</li>
+			<li>Cukrūs</li>
+			<li>Fermentai</li>
+			<li>Augaliniai steroliai</li>
+			<li>Saponinai</li>
+			<li>Ligninas</li>
+			<li>Antrachinonai</li>
+			<li>Salicilo rūgštis</li>
+		</ul>
+	</div>
+</div>
+<div id="faktai" class="info">
+	<div id="kruva">
+		<img src="AloeVera-kruva.png" width="100%">
+	</div>
+	<div class="tekstas">
+		<h2>Aloe Vera faktai</h2>
+		Alavijuose gausu maistinių medžiagų, jie pasižymi antioksidacinėmis savybėmis, todėl visų pirma padeda užkirsti kelią epitelinio audinio pažeidimui, o jei audinys pažeidžiamas – skatina jo gijimą.
+   Antioksidantai neutralizuoja destruktyvų laisvųjų radikalų poveikį. Laisvieji radikalai – nestabilios molekulių dalys, kurios susidaro organizme vykstant medžiagų apykaitai ir kurios aptinkamos aplinką teršiančiose kenksmingose medžiagose. Manoma, kad jie sukelia įvairius sveikatos sutrikimus, įskaitant ir kai kurias vėžio rūšis, taip pat spartina senėjimo procesą. Epitelis –– ląstelių sluoksnis, dengiantis kūną ir išklojantis su išore susisiekiančias kūno vidaus ertmes. Didžiausias epitelinis audinys – oda, tačiau epitelinis audinys taip pat iškloja žarnyną, bronchus ir genitalijas. Todėl nenuostabu, kad alavijai veiksmingi ir pažeidus odą, ir jei skundžiamės žarnyno negalavimais ar vargina astma.
+	</div>
+</div>
+<div id="sultys" class="info">
+	<div id="kruva">
+		<img src="Aloe-Vera-sultys.png" width="100%">
+	</div>
+	<div class="tekstas">
+		<h2>Alavijo sultys</h2>
+		Patentuotos ir stabilizuotos Aloe Vera sultys beveik identiškos šviežiam lapo minkštimui. Sultyse yra visi vitaminai (A, visi B grupės, C, D, E) ir mineralai (geležis, kalcis, kalis, fosforas, kt.), taip pat labai retas vitaminas B12, kuris randamas tik keliuose augaluose. Šios sultys yra labai svarbus maisto priedas vegetarams (nevartojant mėsos organizmui trūksta kai kurių vitaminų ir mineralų).
+		<br><br><b>Sudėtis:</b> 96 proc. Aloe Vera želė, sorbitolis, askorbo rūgštis, citrinos rūgštis, kalio sorbatas, natrio benzonatas, ksantano derva, tokoferolis (vit.E).
+		<br><br><b>Vartojimas:</b> 60 ml (po 30 ml du kartus per dieną prieš valgį užgeriant vandeniu). Prieš pradedant vartoti gerai suplakti. Atidarius laikyti šaldytuve.
+
+	</div>
+</div>
+
+<script>
+function pradzia(){
+if(window.innerWidth > 800){
+	document.getElementById("aloe").style.height = window.innerHeight + "px";
+	document.getElementById("aloe").style.width = window.innerWidth * 0.60 + "px";
+	document.getElementsByClassName("meniuVnt")[0].style.fontSize = window.innerWidth * 0.015 + "px";
+	document.getElementsByClassName("meniuVnt")[1].style.fontSize = window.innerWidth * 0.015 + "px";
+	document.getElementsByClassName("meniuVnt")[2].style.fontSize = window.innerWidth * 0.015 + "px";
+	document.getElementsByClassName("meniuVnt")[3].style.fontSize = window.innerWidth * 0.015 + "px";
+	
+	document.getElementsByClassName("tekstas")[0].style.fontSize = window.innerWidth * 0.0117 + "px";
+	document.getElementsByClassName("tekstas")[1].style.fontSize = window.innerWidth * 0.0117 + "px";
+	document.getElementsByClassName("tekstas")[2].style.fontSize = window.innerWidth * 0.0117 + "px";
+	
+	document.getElementsByClassName("tekstas")[0].style.borderTopWidth = window.innerWidth * 0.004 + "px";
+	document.getElementsByClassName("tekstas")[0].style.borderRightWidth = window.innerWidth * 0.006 + "px";
+	document.getElementsByClassName("tekstas")[1].style.borderTopWidth = window.innerWidth * 0.004 + "px";
+	document.getElementsByClassName("tekstas")[1].style.borderRightWidth = window.innerWidth * 0.006 + "px";
+	document.getElementsByClassName("tekstas")[2].style.borderTopWidth = window.innerWidth * 0.004 + "px";
+	document.getElementsByClassName("tekstas")[2].style.borderRightWidth = window.innerWidth * 0.006 + "px";
+}
+}
+
+document.getElementById("lapoViduje").onclick = function(){
+	document.getElementById("aloe").style.left = "-100%";
+	document.getElementById("viduje").style.top = "50%";
+	document.getElementById("faktai").style.top = "-200%";
+	document.getElementById("sultys").style.top = "-200%";
+}
+document.getElementById("fakt").onclick = function(){
+	document.getElementById("aloe").style.left = "-100%";
+	document.getElementById("viduje").style.top = "-200%";
+	document.getElementById("faktai").style.top = "50%";
+	document.getElementById("sultys").style.top = "-200%";
+}
+document.getElementById("sult").onclick = function(){
+	document.getElementById("aloe").style.left = "-100%";
+	document.getElementById("viduje").style.top = "-200%";
+	document.getElementById("faktai").style.top = "-200%";
+	document.getElementById("sultys").style.top = "50%";
+}
+
+</script>
+</body>
+</html>
